@@ -1,0 +1,52 @@
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #D7FFCD;
+  }
+
+  .header{
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 75px;
+    font-size: 80px;
+    background-color: #FFB600;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-size: 12px;
+  }
+
+  .Personal{
+    font-size: 25px;
+  }
+  .Experiencia{
+    font-size: 25px;
+  }
+  .Quien{
+    font-size: 25px;
+  }
+  .Contact{
+    font-size: 25px;
+  }
+  p{
+    font-size: 15px;
+  }
