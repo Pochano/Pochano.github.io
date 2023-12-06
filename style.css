@@ -125,24 +125,24 @@ a:hover {
 	text-decoration: underline;
 }
 
-#nav li.a   { background: url(images/menu_a_bg.gif) no-repeat; }
-#nav li.a a { background: url(images/menu_a_r.gif)  top right no-repeat; }
-#nav li.b   { background: url(images/menu_b_bg.gif) no-repeat; }
-#nav li.b a { background: url(images/menu_b_r.gif)  top right no-repeat; }
-#nav li.c   { background: url(images/menu_c_bg.gif) no-repeat; }
-#nav li.c a { background: url(images/menu_c_r.gif)  top right no-repeat; }
-#nav li.d   { background: url(images/menu_d_bg.gif) no-repeat; }
-#nav li.d a { background: url(images/menu_d_r.gif)  top right no-repeat; }
+#nav li.a   { background: url(menu_a_bg.gif) no-repeat; }
+#nav li.a a { background: url(menu_a_r.gif)  top right no-repeat; }
+#nav li.b   { background: url(menu_b_bg.gif) no-repeat; }
+#nav li.b a { background: url(menu_b_r.gif)  top right no-repeat; }
+#nav li.c   { background: url(menu_c_bg.gif) no-repeat; }
+#nav li.c a { background: url(menu_c_r.gif)  top right no-repeat; }
+#nav li.d   { background: url(menu_d_bg.gif) no-repeat; }
+#nav li.d a { background: url(menu_d_r.gif)  top right no-repeat; }
 
 /* body */
 
 #body { width: 100%; }
 
-#body { background: #ed8601 url(images/body_bg.gif); }
-#body div { background: url(images/body_tl.gif) top left no-repeat; }
-#body div div { background: url(images/body_tr.gif) top right no-repeat; }
-#body div div div { background: url(images/body_bl.gif) bottom left no-repeat; }
-#body div div div div { background: url(images/body_br.gif) bottom right no-repeat; }
+#body { background: #ed8601 url(body_bg.gif); }
+#body div { background: url(body_tl.gif) top left no-repeat; }
+#body div div { background: url(body_tr.gif) top right no-repeat; }
+#body div div div { background: url(body_bl.gif) bottom left no-repeat; }
+#body div div div div { background: url(body_br.gif) bottom right no-repeat; }
 #body .inner div { background: none; }
 
 #body .inner {
@@ -168,7 +168,7 @@ a:hover {
 	clear: both;
 	margin: 0 1em;
 	padding: 12px 0;
-	background: url(images/divider_h.gif) 12px 12px repeat-x;
+	background: url(divider_h.gif) 12px 12px repeat-x;
 }
 
 /* darkboxes */
@@ -177,9 +177,9 @@ a:hover {
 * html #body #boxes #left .inner  { width: 100%; w\idth: 90%; }
 * html #body #boxes #right .inner { width: 100%; w\idth: 95%; }
 
-#body #boxes { background: url(images/box_bg.gif) repeat-y; }
-#body #boxes div { background: url(images/box_t.gif) top left no-repeat; }
-#body #boxes div div { background: url(images/box_b.gif) bottom left no-repeat; }
+#body #boxes { background: url(box_bg.gif) repeat-y; }
+#body #boxes div { background: url(box_t.gif) top left no-repeat; }
+#body #boxes div div { background: url(box_b.gif) bottom left no-repeat; }
 #body #boxes .inner div { background: none; }
 
 #body #boxes .inner {
